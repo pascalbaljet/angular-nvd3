@@ -25,6 +25,10 @@
     "author": {
         "name": "Konstantin Skipor"
     },
+    "dependencies": {
+        "d3": "^3.3",
+        "nvd3": "^1.7.1"
+    },
     "devDependencies": {
         "grunt": "^0.4.4",
         "grunt-cli": "^0.1.13",
@@ -35,9 +39,7 @@
         "karma": "~0.10",
         "karma-coverage": "^0.2.1",
         "angular": "^1.x",
-        "angular-mocks": "^1.x",
-        "d3": "^3.3",
-        "nvd3": "^1.7.1"
+        "angular-mocks": "^1.x"
     },
     "scripts": {
         "test": "karma start test/karma.conf.js",
